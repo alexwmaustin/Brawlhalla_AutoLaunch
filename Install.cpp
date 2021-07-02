@@ -95,6 +95,16 @@ void QueryKey(HKEY hKey)
     }
 }
 
+void getBrawlhallaPath()
+{
+
+}
+
+void setAutoStart()
+{
+
+}
+
 int __cdecl _tmain()
 {
     HKEY hTestKey;
@@ -112,7 +122,7 @@ int __cdecl _tmain()
     {   
         if(result == REG_CREATED_NEW_KEY)
         {
-
+            //set the reg key to the brawlhalla path
         }
     }
 
