@@ -1,5 +1,4 @@
 @echo off
-rem HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run for the brawlhalla autostart
 Setlocal EnableDelayedExpansion
 
 
