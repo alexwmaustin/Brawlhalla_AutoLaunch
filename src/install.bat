@@ -2,8 +2,8 @@
 
 :savePath 
 set /p drv="What drive letter is steam in? "
-for /d %%x in ("%drv%:\*") do (IF "%%x" == "e:\Steam" set pth=%%~x)
-set pth= "%pth%\steamapps\common\Brawlhalla\Brawlhalla.exe"
+for /d %%x in ("%drv%:\*") do (IF "%%x" == "%drv%:\Steam" set pth=%%~x)
+set pth= "%pth%\steamapps\common\Brawlhalla\BrawlhallaGame.exe"
 
 :setRegKey
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\BrawlhallaAutoStart" /V BrawlhallaInstallPath /T REG_SZ /D %pth% /F

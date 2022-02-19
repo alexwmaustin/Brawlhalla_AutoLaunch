@@ -7,5 +7,5 @@ for /f "tokens=3" %%a in ('REG QUERY "HKEY_LOCAL_MACHINE\SOFTWARE\BrawlhallaAuto
 
 :exec
 Start "" "%pth%" 
-TIMEOUT /T 60
+TIMEOUT /T 75
 taskkill /F /IM Brawlhalla.exe
